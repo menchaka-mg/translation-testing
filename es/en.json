@@ -4,7 +4,7 @@
     "title": "Something went wrong!"
   },
   "IndexPage": {
-    "description": "Este es un ejemplo básico que demuestr el uso de <code>next-intl</code> con el siguiente formato.",
+    "description": "Este es un ejemplo básico que demuestra el uso de <code>next-intl</code> con el siguiente formato.",
     "title": "next-intl example"
   },
   "LocaleLayout": {
