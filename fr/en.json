@@ -1,10 +1,10 @@
 {
   "Error": {
-    "description": "<p>We've unfortunately encountered an error.</p><p>You can try to <retry>reload the page</retry> you were visiting.</p>",
+    "description": "<p>Une erreur s'est malheureusement produite.</p><p>Vous pouvez essayer de <retry>recharger</retry> la page que vous consultiez.</p>",
     "title": "Quelque chose s'est mal passé !"
   },
   "IndexPage": {
-    "description": "Ceci est un exemple de base qui démontre l'utilisation de <code>next-intl</code> avec le Suivant. s App Router. Essayez de changer la locale dans le coin supérieur droit et voyez comment le contenu change.",
+    "description": "Ceci est un exemple de base qui démontre l'utilisation de <code>next-intl</code> avec le Suivant. App Router. Essayez de changer la locale dans le coin supérieur droit et voyez comment le contenu change.",
     "title": "exemple next-intl"
   },
   "LocaleLayout": {
@@ -40,7 +40,7 @@
     }
   },
   "PathnamesPage": {
-    "description": "<p>The pathnames are internationalized too.</p><p>If you're using the default language English, you'll see <code>/en/pathnames</code> in the browser address bar on this page.</p><p>If you change the locale to German, the URL is localized accordingly (<code>/de/pfadnamen</code>).</p>",
+    "description": "<p>Les chemins d'accès sont également internationalisés.</p><p>Si vous utilisez l'anglais (langue par défaut), vous verrez <code>/en/pathnames</code> dans la barre d'adresse de votre navigateur sur cette page.</p><p>Si vous changez la langue en allemand, l'URL sera localisée en conséquence (<code>/de/pfadnamen</code>).</p>",
     "title": "Noms des chemins"
   }
 }
