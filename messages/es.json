@@ -1,46 +1,46 @@
 {
   "Error": {
-    "description": "descripción",
-    "title": "título"
+    "description": "<p>Desgraciadamente nos hemos encontrado con un error.</p><p>Puedes intentar <reintentar>recargar la página</reintentar> que estabas visitando.</p> <p>Puedes intentar <reintentar>recargar la página</reintentar> que estabas visitando",
+    "title": "¡Algo salió mal!"
   },
   "IndexPage": {
-    "description": "descripción",
-    "title": "título"
+    "description": "Este es un ejemplo básico que demuestra el uso de <code>next-intl</code> con Next.js App Router. Pruebe a cambiar la configuración regional en la esquina superior derecha y vea cómo cambia el contenido.",
+    "title": "ejemplo de next-intl"
   },
   "LocaleLayout": {
-    "title": "título"
+    "title": "ejemplo de next-intl"
   },
   "LocaleSwitcher": {
-    "label": "etiqueta",
-    "locale": "localización"
+    "label": "Cambiar de idioma",
+    "locale": "{locale, select, de {Deutsch} es {Español} other {Desconocido}}"
   },
   "Manifest": {
-    "name": "nombre"
+    "name": "ejemplo de next-intl"
   },
   "Navigation": {
     "home": "Inicio",
-    "pathnames": "rutas"
+    "pathnames": "Nombres de ruta"
   },
   "NotFoundPage": {
-    "description": "descripción",
-    "title": "título"
+    "description": "Compruebe la barra de direcciones del navegador o utilice la navegación para ir a una página conocida.",
+    "title": "Página no encontrada"
   },
   "PageLayout": {
     "links": {
       "docs": {
-        "description": "descripción",
-        "href": "href",
-        "title": "título"
+        "description": "Más información sobre next-intl en la documentación oficial.",
+        "href": "https://next-intl.dev",
+        "title": "Docs"
       },
       "source": {
-        "description": "descripción",
-        "href": "href",
-        "title": "título"
+        "description": "Consulta el código fuente de este ejemplo en GitHub.",
+        "href": "https://github.com/amannn/next-intl/tree/main/examples/example-app-router",
+        "title": "Código fuente"
       }
     }
   },
   "PathnamesPage": {
-    "description": "descripción",
-    "title": "título"
+    "description": "<p>Los nombres de ruta también están internacionalizados.</p><p>Si utilizas el idioma predeterminado inglés, verás <code>/en/pathnames</code> en la barra de direcciones del navegador en esta página.</p><p>Si cambias la configuración regional a alemán, la URL se localiza en consecuencia (<code>/de/pfadnamen</code>).</p><p>Si cambias la configuración regional a alemán, la URL se localiza en consecuencia (<code>/de/pfadnamen</code>)",
+    "title": "Nombres de ruta"
   }
 }
