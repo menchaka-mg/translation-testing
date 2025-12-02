@@ -1,46 +1,46 @@
 {
   "Error": {
-    "description": "<p>We've unfortunately encountered an error.</p><p>You can try to <retry>reload the page</retry> you were visiting.</p>",
-    "title": "Something went wrong!"
+    "description": "<p>Desafortunadamente hemos encontrado un error.</p><p>Puedes intentar <retry>recargar la página</retry> que estabas visitando.</p>",
+    "title": "¡Algo salió mal!"
   },
   "IndexPage": {
-    "description": "This is a basic example that demonstrates the usage of <code>next-intl</code> with the Next.js App Router. Try changing the locale in the top right corner and see how the content changes.",
-    "title": "next-intl example"
+    "description": "Este es un ejemplo básico que demuestra el uso de <code>next-intl</code> con el siguiente. s App Router. Intenta cambiar el local en la esquina superior derecha y mira cómo cambia el contenido.",
+    "title": "ejemplo next-intl"
   },
   "LocaleLayout": {
-    "title": "next-intl example"
+    "title": "ejemplo de next-intl"
   },
   "LocaleSwitcher": {
-    "label": "Change language",
-    "locale": "{locale, select, de {Deutsch} en {English} other {Unknown}}"
+    "label": "Cambiar idioma",
+    "locale": "{locale, select, de {Deutsch} en {English} es {Spanish} other {Unknown}}"
   },
   "Manifest": {
-    "name": "next-intl example"
+    "name": "ejemplo next-intl"
   },
   "Navigation": {
-    "home": "Home",
-    "pathnames": "Pathnames"
+    "home": "Inicio",
+    "pathnames": "Rutas"
   },
   "NotFoundPage": {
-    "description": "Please double-check the browser address bar or use the navigation to go to a known page.",
-    "title": "Page not found"
+    "description": "Por favor, compruebe la barra de direcciones del navegador o utilice la navegación para ir a una página conocida.",
+    "title": "Página no encontrada"
   },
   "PageLayout": {
     "links": {
       "docs": {
-        "description": "Learn more about next-intl in the official docs.",
+        "description": "Aprenda más sobre el next-intl en los documentos oficiales.",
         "href": "https://next-intl.dev",
-        "title": "Docs"
+        "title": "Documentos"
       },
       "source": {
-        "description": "Browse the source code of this example on GitHub.",
+        "description": "Navegue el código fuente de este ejemplo en GitHub.",
         "href": "https://github.com/amannn/next-intl/tree/main/examples/example-app-router",
-        "title": "Source code"
+        "title": "Código fuente"
       }
     }
   },
   "PathnamesPage": {
-    "description": "<p>The pathnames are internationalized too.</p><p>If you're using the default language English, you'll see <code>/en/pathnames</code> in the browser address bar on this page.</p><p>If you change the locale to German, the URL is localized accordingly (<code>/de/pfadnamen</code>).</p>",
-    "title": "Pathnames"
+    "description": "<p>Los nombres de ruta también están internacionalizados.</p><p>Si estás usando el idioma predeterminado en inglés, verás <code>/es/pathnames</code> en la barra de direcciones del navegador en esta página.</p><p>Si cambias la configuración regional a alemán, la URL se localiza en consecuencia (<code>/de/pfadnamen</code>).</p>",
+    "title": "Rutas"
   }
 }
