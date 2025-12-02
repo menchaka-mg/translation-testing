@@ -12,10 +12,10 @@
   },
   "LocaleSwitcher": {
     "label": "Sprache ändern",
-    "locale": "{locale, select, de {Deutsch} en {English} other {Unbekannt}}"
+    "locale": "{locale, select, de {Deutsch} en {English} es {Spanish} other {Unbekannt}}"
   },
   "Manifest": {
-    "name": ""
+    "name": "next-intl example"
   },
   "Navigation": {
     "home": "Start",
