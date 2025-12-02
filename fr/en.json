@@ -1,0 +1,46 @@
+{
+  "Error": {
+    "description": "<p>Une erreur s'est malheureusement produite.</p><p>Vous pouvez essayer de <retry>recharger</retry> la page que vous consultiez.</p>",
+    "title": "Quelque chose s'est mal passé !"
+  },
+  "IndexPage": {
+    "description": "Ceci est un exemple de base qui démontre l'utilisation de <code>next-intl</code> avec le Suivant. App Router. Essayez de changer la locale dans le coin supérieur droit et voyez comment le contenu change.",
+    "title": "exemple next-intl"
+  },
+  "LocaleLayout": {
+    "title": "exemple next-intl"
+  },
+  "LocaleSwitcher": {
+    "label": "Changer de langue",
+    "locale": "{locale, select, de {Deutsch} en {Anglais} other {Inconnu}}"
+  },
+  "Manifest": {
+    "name": "exemple next-intl"
+  },
+  "Navigation": {
+    "home": "Domicile",
+    "pathnames": "Noms des chemins"
+  },
+  "NotFoundPage": {
+    "description": "Veuillez vérifier à nouveau la barre d'adresse du navigateur ou utilisez la navigation pour accéder à une page connue.",
+    "title": "Page introuvable"
+  },
+  "PageLayout": {
+    "links": {
+      "docs": {
+        "description": "En savoir plus sur next-intl dans la documentation officielle.",
+        "href": "https://next-intl.dev",
+        "title": "Documents"
+      },
+      "source": {
+        "description": "Parcourez le code source de cet exemple sur GitHub.",
+        "href": "https://github.com/amannn/next-intl/tree/main/examples/example-app-router",
+        "title": "Code source"
+      }
+    }
+  },
+  "PathnamesPage": {
+    "description": "<p>Les chemins d'accès sont également internationalisés.</p><p>Si vous utilisez l'anglais (langue par défaut), vous verrez <code>/en/pathnames</code> dans la barre d'adresse de votre navigateur sur cette page.</p><p>Si vous changez la langue en allemand, l'URL sera localisée en conséquence (<code>/de/pfadnamen</code>).</p>",
+    "title": "Noms des chemins"
+  }
+}
