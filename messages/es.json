@@ -12,7 +12,7 @@
   },
   "LocaleSwitcher": {
     "label": "Cambiar de idioma",
-    "locale": "{locale, select, de {Alemán} en {Ingles} es {Español} other {Desconocido}}"
+    "locale": "{locale, select, de {Deutsch} es {Español} other {Desconocido}}"
   },
   "Manifest": {
     "name": "ejemplo de next-intl"
@@ -30,7 +30,7 @@
       "docs": {
         "description": "Más información sobre next-intl en la documentación oficial.",
         "href": "https://next-intl.dev",
-        "title": "Documentos"
+        "title": "Docs"
       },
       "source": {
         "description": "Consulta el código fuente de este ejemplo en GitHub.",
@@ -40,7 +40,7 @@
     }
   },
   "PathnamesPage": {
-    "description": "<p>Los nombres de ruta también están internacionalizados.</p><p>Si utilizas el idioma predeterminado inglés, verás <code>/en/pathnames</code> en la barra de direcciones del navegador en esta página.</p><p>Si cambias la configuración regional a alemán, la URL se localiza en consecuencia (<code>/de/pfadnamen</code>).</p>",
+    "description": "<p>Los nombres de ruta también están internacionalizados.</p><p>Si utilizas el idioma predeterminado inglés, verás <code>/en/pathnames</code> en la barra de direcciones del navegador en esta página.</p><p>Si cambias la configuración regional a alemán, la URL se localiza en consecuencia (<code>/de/pfadnamen</code>).</p><p>Si cambias la configuración regional a alemán, la URL se localiza en consecuencia (<code>/de/pfadnamen</code>)",
     "title": "Nombres de ruta"
   }
 }
