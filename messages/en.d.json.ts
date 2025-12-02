@@ -15,7 +15,7 @@ declare const messages: {
   },
   "LocaleSwitcher": {
     "label": "Change language",
-    "locale": "{locale, select, de {Deutsch} en {English} other {Unknown}}"
+    "locale": "{locale, select, de {Deutsch} en {English} es {Spanish} other {Unknown}}"
   },
   "Manifest": {
     "name": "next-intl example"
