@@ -20,6 +20,9 @@ export default function IndexPage({params}: PageProps<'/[locale]'>) {
           )
         })}
       </p>
+      <p className="max-w-[590px]">
+        {t.rich('text', )}
+      </p>      
     </PageLayout>
   );
 }
