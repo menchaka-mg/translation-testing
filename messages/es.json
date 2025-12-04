@@ -42,5 +42,9 @@
   "PathnamesPage": {
     "description": "<p>Los nombres de ruta también están internacionalizados.</p><p>Si utilizas el idioma predeterminado inglés, verás <code>/en/pathnames</code> en la barra de direcciones del navegador en esta página.</p><p>Si cambias la configuración regional a alemán, la URL se localiza en consecuencia (<code>/de/pfadnamen</code>).</p>",
     "title": "Nombres de ruta"
+  },
+  "TestingTMS": {
+    "text": "Quiero probar lo que ocurrió cuando se añade una nueva clave",
+    "TMStitle": "This is a testing string"
   }
 }
