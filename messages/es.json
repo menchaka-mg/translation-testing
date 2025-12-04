@@ -5,7 +5,8 @@
   },
   "IndexPage": {
     "description": "Este es un ejemplo básico que demuestra el uso de <code>next-intl</code> con Next.js App Router. Pruebe a cambiar la configuración regional en la esquina superior derecha y vea cómo cambia el contenido.",
-    "title": "Ejemplo de next-intl"
+    "title": "Ejemplo de next-intl",
+    "text": "Se trata de un texto."
   },
   "LocaleLayout": {
     "title": "ejemplo de next-intl"
@@ -44,7 +45,7 @@
     "title": "Nombres de ruta"
   },
   "TestingTMS": {
-    "text": "Quiero probar lo que ocurrió cuando se añade una nueva clave",
+    "text": "Quiero probar lo que ocurre cuando se añade una nueva clave",
     "TMStitle": "Esta es una cadena de prueba"
   }
 }
