@@ -5,7 +5,7 @@
   },
   "IndexPage": {
     "description": "Este es un ejemplo básico que demuestra el uso de <code>next-intl</code> con Next.js App Router. Pruebe a cambiar la configuración regional en la esquina superior derecha y vea cómo cambia el contenido.",
-    "title": "ejemplo de next-intl"
+    "title": "Ejemplo de next-intl"
   },
   "LocaleLayout": {
     "title": "ejemplo de next-intl"
@@ -42,5 +42,9 @@
   "PathnamesPage": {
     "description": "<p>Los nombres de ruta también están internacionalizados.</p><p>Si utilizas el idioma predeterminado inglés, verás <code>/en/pathnames</code> en la barra de direcciones del navegador en esta página.</p><p>Si cambias la configuración regional a alemán, la URL se localiza en consecuencia (<code>/de/pfadnamen</code>).</p><p>Si cambias la configuración regional a alemán, la URL se localiza en consecuencia (<code>/de/pfadnamen</code>)",
     "title": "Nombres de ruta"
+  },
+  "TestingTMS": {
+    "text": "Quiero probar lo que ocurrió cuando se añade una nueva clave",
+    "TMStitle": "Esta es una cadena de prueba"
   }
 }

@@ -15,7 +15,7 @@
     "locale": "{locale, select, de {Deutsch} en {English} es {Spanish} other {Unbekannt}}"
   },
   "Manifest": {
-    "name": "next-intl example"
+    "name": "nächstes Beispiel"
   },
   "Navigation": {
     "home": "Start",
@@ -42,5 +42,9 @@
   "PathnamesPage": {
     "description": "<p>Auch die Pfadnamen sind internationalisiert.</p><p>Wenn du die Standardsprache Englisch verwendest, siehst du <code>/en/pathnames</code> in der Adressleiste des Browsers auf dieser Seite.</p><p>Wenn du die Sprache auf Deutsch änderst, wird die URL entsprechend lokalisiert (<code>/de/pfadnamen</code>).</p>",
     "title": "Pfadnamen"
+  },
+  "TestingTMS": {
+    "text": "Ich möchte testen, was passiert, wenn ein neuer Schlüssel hinzugefügt wird",
+    "TMStitle": "Dies ist eine Test-Zeichenkette"
   }
 }
