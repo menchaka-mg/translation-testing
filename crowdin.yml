@@ -1,3 +1,5 @@
 files:
   - source: /api-spec/api-en.json
     translation: /api-spec/api-%two_letters_code%.json
+  - source: /messages/en.json
+    translation: /messages/%two_letters_code%.json
