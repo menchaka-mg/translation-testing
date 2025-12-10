@@ -1,0 +1,189 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+      "version": "1.0.0",
+      "title": "Swagger Petstore",
+      "license": {
+        "name": "MIT"
+      }
+    },
+    "servers": [
+      {
+        "url": "http://petstore.swagger.io/v1"
+      }
+    ],
+    "paths": {
+      "/pets": {
+        "get": {
+          "summary": "Listar todas las mascotas",
+          "operationId": "listPets",
+          "tags": [
+            "mascotas"
+          ],
+          "parameters": [
+            {
+              "name": "límite",
+              "in": "consulta",
+              "description": "Cuántos elementos devolver a la vez (máx. 100)",
+              "required": false,
+              "schema": {
+                "type": "entero",
+                "maximum": 100,
+                "format": "int32"
+              }
+            }
+          ],
+          "responses": {
+            "200": {
+              "description": "Una matriz paginada de mascotas",
+              "headers": {
+                "x-next": {
+                  "description": "Un enlace a la siguiente página de respuestas",
+                  "schema": {
+                    "type": "cadena"
+                  }
+                }
+              },
+              "content": {
+                "application/json": {
+                  "schema": {
+                    "$ref": "#/componentes/esquemas/Mascotas"
+                  }
+                }
+              }
+            },
+            "default": {
+              "description": "error inesperado",
+              "content": {
+                "application/json": {
+                  "schema": {
+                    "$ref": "#/componentes/esquemas/Error"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "post": {
+          "summary": "Crear un pet",
+          "operationId": "createPets",
+          "tags": [
+            "mascotas"
+          ],
+          "requestBody": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/componentes/esquemas/Mascota"
+                }
+              }
+            },
+            "required": true
+          },
+          "responses": {
+            "201": {
+              "description": "Respuesta nula"
+            },
+            "default": {
+              "description": "error inesperado",
+              "content": {
+                "application/json": {
+                  "schema": {
+                    "$ref": "#/componentes/esquemas/Error"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "/pets/{petId}": {
+        "get": {
+          "summary": "Información para un pet específico",
+          "operationId": "showPetById",
+          "tags": [
+            "mascotas"
+          ],
+          "parameters": [
+            {
+              "name": "petId",
+              "in": "ruta",
+              "required": true,
+              "description": "El id de la mascota a recuperar",
+              "schema": {
+                "type": "cadena"
+              }
+            }
+          ],
+          "responses": {
+            "200": {
+              "description": "Respuesta esperada a una solicitud válida",
+              "content": {
+                "application/json": {
+                  "schema": {
+                    "$ref": "#/componentes/esquemas/Mascota"
+                  }
+                }
+              }
+            },
+            "default": {
+              "description": "error inesperado",
+              "content": {
+                "application/json": {
+                  "schema": {
+                    "$ref": "#/componentes/esquemas/Error"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "components": {
+      "schemas": {
+        "Pet": {
+          "type": "objeto",
+          "required": [
+            "id",
+            "nombre"
+          ],
+          "properties": {
+            "id": {
+              "type": "entero",
+              "format": "int64"
+            },
+            "name": {
+              "type": "cadena"
+            },
+            "tag": {
+              "type": "cadena"
+            }
+          }
+        },
+        "Pets": {
+          "type": "matriz",
+          "maxItems": 100,
+          "items": {
+            "$ref": "#/componentes/esquemas/Mascota"
+          }
+        },
+        "Error": {
+          "type": "objeto",
+          "required": [
+            "código",
+            "mensaje"
+          ],
+          "properties": {
+            "code": {
+              "type": "entero",
+              "format": "int32"
+            },
+            "message": {
+              "type": "cadena"
+            }
+          }
+        }
+      }
+    }
+}
