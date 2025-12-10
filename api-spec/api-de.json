@@ -1,0 +1,189 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+      "version": "1.0.0",
+      "title": "Swagger Petstore",
+      "license": {
+        "name": "MIT"
+      }
+    },
+    "servers": [
+      {
+        "url": "http://petstore.swagger.io/v1"
+      }
+    ],
+    "paths": {
+      "/pets": {
+        "get": {
+          "summary": "Alle Haustiere auflisten",
+          "operationId": "listPets",
+          "tags": [
+            "Haustiere"
+          ],
+          "parameters": [
+            {
+              "name": "begrenzen",
+              "in": "abfrage",
+              "description": "Wieviele Elemente zu einem Zeitpunkt zurückgeschickt werden sollen (max. 100)",
+              "required": false,
+              "schema": {
+                "type": "ganze Zahl",
+                "maximum": 100,
+                "format": "in32"
+              }
+            }
+          ],
+          "responses": {
+            "200": {
+              "description": "Ein paged Array von Haustieren",
+              "headers": {
+                "x-next": {
+                  "description": "Ein Link zur nächsten Antwortseite",
+                  "schema": {
+                    "type": "string"
+                  }
+                }
+              },
+              "content": {
+                "application/json": {
+                  "schema": {
+                    "$ref": "#/components/schemas/Haustiere"
+                  }
+                }
+              }
+            },
+            "default": {
+              "description": "unerwarteter Fehler",
+              "content": {
+                "application/json": {
+                  "schema": {
+                    "$ref": "#/components/schemas/Error"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "post": {
+          "summary": "Ein Haustier erstellen",
+          "operationId": "createPets",
+          "tags": [
+            "Haustiere"
+          ],
+          "requestBody": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Haustier"
+                }
+              }
+            },
+            "required": true
+          },
+          "responses": {
+            "201": {
+              "description": "Nullantwort"
+            },
+            "default": {
+              "description": "unerwarteter Fehler",
+              "content": {
+                "application/json": {
+                  "schema": {
+                    "$ref": "#/components/schemas/Error"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "/pets/{petId}": {
+        "get": {
+          "summary": "Info für ein bestimmtes Tier",
+          "operationId": "showPetById",
+          "tags": [
+            "Haustiere"
+          ],
+          "parameters": [
+            {
+              "name": "petId",
+              "in": "pfad",
+              "required": true,
+              "description": "Die Id des abzuholenden Tieres",
+              "schema": {
+                "type": "string"
+              }
+            }
+          ],
+          "responses": {
+            "200": {
+              "description": "Erwartete Antwort auf eine gültige Anfrage",
+              "content": {
+                "application/json": {
+                  "schema": {
+                    "$ref": "#/components/schemas/Haustier"
+                  }
+                }
+              }
+            },
+            "default": {
+              "description": "unerwarteter Fehler",
+              "content": {
+                "application/json": {
+                  "schema": {
+                    "$ref": "#/components/schemas/Error"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "components": {
+      "schemas": {
+        "Pet": {
+          "type": "objekt",
+          "required": [
+            "id",
+            "name"
+          ],
+          "properties": {
+            "id": {
+              "type": "ganze Zahl",
+              "format": "in64"
+            },
+            "name": {
+              "type": "string"
+            },
+            "tag": {
+              "type": "string"
+            }
+          }
+        },
+        "Pets": {
+          "type": "array",
+          "maxItems": 100,
+          "items": {
+            "$ref": "#/components/schemas/Haustier"
+          }
+        },
+        "Error": {
+          "type": "objekt",
+          "required": [
+            "kode",
+            "nachricht"
+          ],
+          "properties": {
+            "code": {
+              "type": "ganze Zahl",
+              "format": "in32"
+            },
+            "message": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    }
+}
