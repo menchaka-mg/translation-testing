@@ -24,7 +24,7 @@
             {
               "name": "límite",
               "in": "consulta",
-              "description": "Cuántos elementos devolver a la vez (máx. 100)",
+              "description": "Cuántos elementos devolver a la vez (máximo 100)",
               "required": false,
               "schema": {
                 "type": "entero",
