@@ -1,46 +1,51 @@
 {
   "Error": {
-    "description": "<p>Desgraciadamente nos hemos encontrado con un error.</p><p>Puedes intentar <reintentar>recargar la página</reintentar> que estabas visitando.</p> <p>Puedes intentar <reintentar>recargar la página</reintentar> que estabas visitando",
+    "description": "<p>Desafortunadamente hemos encontrado un error.</p><p>Puedes intentar <retry>recargar la página</retry> que estabas visitando.</p>",
     "title": "¡Algo salió mal!"
   },
   "IndexPage": {
-    "description": "Este es un ejemplo básico que demuestra el uso de <code>next-intl</code> con Next.js App Router. Pruebe a cambiar la configuración regional en la esquina superior derecha y vea cómo cambia el contenido.",
-    "title": "ejemplo de next-intl"
+    "description": "Este es un ejemplo básico que demuestra el uso de <code>próximo intl</code> con el siguiente. s App Router. Intenta cambiar el local en la esquina superior derecha y mira cómo cambia el contenido.",
+    "title": "ejemplo next-intl",
+    "text": "Se trata de un texto."
   },
   "LocaleLayout": {
-    "title": "ejemplo de next-intl"
+    "title": "ejemplo next-intl"
   },
   "LocaleSwitcher": {
-    "label": "Cambiar de idioma",
-    "locale": "{locale, select, de {Deutsch} es {Español} other {Desconocido}}"
+    "label": "Cambiar idioma",
+    "locale": "{locale, select, de {Deutsch} en {English} es {Español} other {¡Desconocido}}"
   },
   "Manifest": {
-    "name": "ejemplo de next-intl"
+    "name": "ejemplo next-intl"
   },
   "Navigation": {
     "home": "Inicio",
-    "pathnames": "Nombres de ruta"
+    "pathnames": "Rutas"
   },
   "NotFoundPage": {
-    "description": "Compruebe la barra de direcciones del navegador o utilice la navegación para ir a una página conocida.",
+    "description": "Por favor, compruebe la barra de direcciones del navegador o utilice la navegación para ir a una página conocida.",
     "title": "Página no encontrada"
   },
   "PageLayout": {
     "links": {
       "docs": {
-        "description": "Más información sobre next-intl en la documentación oficial.",
+        "description": "Aprenda más sobre el next-intl en los documentos oficiales.",
         "href": "https://next-intl.dev",
-        "title": "Docs"
+        "title": "Documentos"
       },
       "source": {
-        "description": "Consulta el código fuente de este ejemplo en GitHub.",
+        "description": "Navegue el código fuente de este ejemplo en GitHub.",
         "href": "https://github.com/amannn/next-intl/tree/main/examples/example-app-router",
         "title": "Código fuente"
       }
     }
   },
   "PathnamesPage": {
-    "description": "<p>Los nombres de ruta también están internacionalizados.</p><p>Si utilizas el idioma predeterminado inglés, verás <code>/en/pathnames</code> en la barra de direcciones del navegador en esta página.</p><p>Si cambias la configuración regional a alemán, la URL se localiza en consecuencia (<code>/de/pfadnamen</code>).</p><p>Si cambias la configuración regional a alemán, la URL se localiza en consecuencia (<code>/de/pfadnamen</code>)",
-    "title": "Nombres de ruta"
+    "description": "<p>Los nombres de ruta también están internacionalizados.</p><p>Si estás usando el idioma predeterminado en inglés, verás <code>/es/pathnames</code> en la barra de direcciones del navegador en esta página.</p><p>Si cambias la configuración regional a alemán, la URL se localiza en consecuencia (<code>/de/pfadnamen</code>).</p>",
+    "title": "Rutas"
+  },
+  "TestingTMS": {
+    "text": "Quiero probar lo que ocurrió cuando se añade una nueva clave",
+    "TMStitle": "Esta es una cadena de prueba"
   }
 }
