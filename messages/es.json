@@ -1,10 +1,10 @@
 {
   "Error": {
-    "description": "<p>Desgraciadamente nos hemos encontrado con un error.</p><p>Puedes intentar <reintentar>recargar la página</reintentar> que estabas visitando.</p> <p>Puedes intentar <reintentar>recargar la página</reintentar> que estabas visitando",
-    "title": "¡Algo salió mal!"
+    "description": "<p>We've unfortunately encountered an error.</p><p>You can try to <retry>reload the page</retry> you were visiting.</p>",
+    "title": "Something went wrong!"
   },
   "IndexPage": {
-    "description": "Este es un ejemplo básico que demuestra el uso de <code>next-intl</code> con Next.js App Router. Pruebe a cambiar la configuración regional en la esquina superior derecha y vea cómo cambia el contenido.",
+    "description": "This is a basic example that demonstrates the usage of <code>next-intl</code> with the Next.js App Router. Try changing the locale in the top right corner and see how the content changes.",
     "title": "Ejemplo de next-intl",
     "text": "Se trata de un texto."
   },
