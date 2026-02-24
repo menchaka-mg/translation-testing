@@ -1,51 +1,51 @@
 {
   "Error": {
-    "description": "<p>We've unfortunately encountered an error.</p><p>You can try to <retry>reload the page</retry> you were visiting.</p>",
-    "title": "Something went wrong!"
+    "description": "<p>Helaas hebben we een fout ondervonden.</p><p>Je kunt proberen om de <retry>pagina opnieuw te laden</retry> die je bezocht.</p>",
+    "title": "Er is iets misgegaan!"
   },
   "IndexPage": {
-    "description": "This is a basic example that demonstrates the usage of <code>next-intl</code> with the Next.js App Router. Try changing the locale in the top right corner and see how the content changes.",
-    "title": "next-intl example",
-    "text": "This is some text."
+    "description": "Dit is een eenvoudig voorbeeld dat het gebruik van <code>next-intl</code> met de Next.js App Router demonstreert. Probeer de taal rechtsboven te wijzigen en kijk hoe de inhoud verandert.",
+    "title": "next-intl voorbeeld",
+    "text": "Dit is wat tekst."
   },
   "LocaleLayout": {
-    "title": "next-intl example"
+    "title": "next-intl voorbeeld"
   },
   "LocaleSwitcher": {
-    "label": "Change language",
-    "locale": "{locale, select, de {Deutsch} en {English} es {Spanish} other {Unknown}}"
+    "label": "Verander taal",
+    "locale": "{locale, select, de {Deutsch} en {Engels} es {Spaans} other {Onbekend}}"
   },
   "Manifest": {
-    "name": "next-intl example"
+    "name": "next-intl voorbeeld"
   },
   "Navigation": {
     "home": "Home",
-    "pathnames": "Pathnames"
+    "pathnames": "Padnamen"
   },
   "NotFoundPage": {
-    "description": "Please double-check the browser address bar or use the navigation to go to a known page.",
-    "title": "Page not found"
+    "description": "Controleer a.u.b. de adresbalk van de browser of gebruik de navigatie om naar een bekende pagina te gaan.",
+    "title": "Pagina niet gevonden"
   },
   "PageLayout": {
     "links": {
       "docs": {
-        "description": "Learn more about next-intl in the official docs.",
+        "description": "Lees meer over `next-intl` in de officiële documentatie.",
         "href": "https://next-intl.dev",
-        "title": "Docs"
+        "title": "Documentatie"
       },
       "source": {
-        "description": "Browse the source code of this example on GitHub.",
+        "description": "Blader door de broncode van dit voorbeeld op GitHub.",
         "href": "https://github.com/amannn/next-intl/tree/main/examples/example-app-router",
-        "title": "Source code"
+        "title": "Broncode"
       }
     }
   },
   "PathnamesPage": {
-    "description": "<p>The pathnames are internationalized too.</p><p>If you're using the default language English, you'll see <code>/en/pathnames</code> in the browser address bar on this page.</p><p>If you change the locale to German, the URL is localized accordingly (<code>/de/pfadnamen</code>).</p>",
-    "title": "Pathnames"
+    "description": "<p>De padnamen zijn ook geïnternationaliseerd.</p><p>Als je de standaardtaal Engels gebruikt, zie je <code>/en/pathnames</code> in de adresbalk van de browser op deze pagina.</p><p>Als je de locale verandert naar Duits, wordt de URL dienovereenkomstig gelokaliseerd (<code>/de/pfadnamen</code>).</p>",
+    "title": "Padnamen"
   },
   "TestingTMS": {
-    "text": "I want to test what happend when a new key is added",
-    "TMStitle": "This is a testing string"
+    "text": "Ik wil testen wat er gebeurt als er een nieuwe sleutel wordt toegevoegd",
+    "TMStitle": "Dit is een teststring"
   }
 }
