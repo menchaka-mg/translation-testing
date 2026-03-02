@@ -1,0 +1,51 @@
+{
+  "Error": {
+    "description": "<p>Desafortunadamente, hemos encontrado un error.</p><p>Puedes intentar <retry>recargar la página</retry> que estabas visitando.</p>",
+    "title": "¡Algo salió mal!"
+  },
+  "IndexPage": {
+    "description": "Este es un ejemplo básico que demuestra el uso de <code>next-intl</code> con el enrutador de aplicaciones de Next.js. Intenta cambiar el idioma en la esquina superior derecha y observa cómo cambia el contenido.",
+    "title": "ejemplo de next-intl",
+    "text": "Este es un texto."
+  },
+  "LocaleLayout": {
+    "title": "ejemplo de next-intl"
+  },
+  "LocaleSwitcher": {
+    "label": "Cambiar idioma",
+    "locale": "{locale, select, de {Deutsch} en {English} es {Español} other {Desconocido}}"
+  },
+  "Manifest": {
+    "name": "ejemplo de next-intl"
+  },
+  "Navigation": {
+    "home": "Inicio",
+    "pathnames": "Rutas"
+  },
+  "NotFoundPage": {
+    "description": "Por favor, revisa la barra de direcciones del navegador o utiliza la navegación para ir a una página conocida.",
+    "title": "Página no encontrada"
+  },
+  "PageLayout": {
+    "links": {
+      "docs": {
+        "description": "Aprende más sobre next-intl en la documentación oficial.",
+        "href": "https://next-intl.dev",
+        "title": "Documentación"
+      },
+      "source": {
+        "description": "Explora el código fuente de este ejemplo en GitHub.",
+        "href": "https://github.com/amannn/next-intl/tree/main/examples/example-app-router",
+        "title": "Código fuente"
+      }
+    }
+  },
+  "PathnamesPage": {
+    "description": "<p>Los nombres de ruta también están internacionalizados.</p><p>Si estás usando el idioma predeterminado Inglés, verás <code>/en/pathnames</code> en la barra de direcciones del navegador en esta página.</p><p>Si cambias el idioma a Alemán, la URL se localiza en consecuencia (<code>/de/pfadnamen</code>).</p>",
+    "title": "Rutas"
+  },
+  "TestingTMS": {
+    "text": "Quiero probar qué sucede cuando se agrega una nueva clave",
+    "TMStitle": "Esta es una cadena de prueba"
+  }
+}
